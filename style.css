@@ -1,44 +1,22 @@
-/* Added Reset file to current code */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  /* added width to 100% */
-  width: 100%;
-}
 
-/* added starting curly brace */
+/* added starting curly brace changed body font-size to 16px*/
 body {
-  font-size: 14px;
+  font-size: 16px;
 }
 
-/* added ending curly brace and removed top margin */
+/* added ending curly brace, margin-top to auto and changed height to 150px  */
 nav {
   background color: yellow;
-  height: 100px;
+  margin-top: -auto1;
+  height: 150px;
   position: fixed;
   width: 100%;
 }
 
-/* made section 50% */
+/* made section 75% */
 section {
   margin: 0 auto;
-  width: 50%;
+  width: 75%;
 }
 
 /* added colon to font-family */
@@ -47,43 +25,26 @@ h1 {
   font-size: 2em;
 }
 
-/* added colon to text alignment */
+/* added colon to text alignment and consolidated font-size attribute */
 .example, h3 {
+  font-size: 1.3px;
   padding-top: 30px;
   text-align: center
 }
 
-h3 {
-  font-size: 1.3em;
-}
-
-/* added colon for margin and changed background to gray*/
+/* added colon for margin, added ending curly brace, changed height to 80px and changed background to gray*/
 .element {
   background-color: gray;
-  height: 100px;
+  height: 80px;
   margin: 10px 0;
   width: 100%;
+}
 
-  /* Added HTML5 display-role reset for older browsers */
-  article, aside, details, figcaption, figure,
-  footer, header, hgroup, menu, nav, section {
-  	display: block;
-  }
-  body {
-  	line-height: 1;
-  }
-  ol, ul {
-  	list-style: none;
-  }
-  blockquote, q {
-  	quotes: none;
-  }
-  blockquote:before, blockquote:after,
-  q:before, q:after {
-  	content: '';
-  	content: none;
-  }
-  table {
-  	border-collapse: collapse;
-  	border-spacing: 0;
-  }
+/* added .last class for the last 3 divs*/
+
+.last {
+    background-color: yellow;
+    height: 80px;
+    margin: 10px 0;
+    width: 100%;
+}
