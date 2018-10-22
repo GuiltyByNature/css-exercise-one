@@ -7,7 +7,7 @@ body {
 /* added ending curly brace, margin-top to auto and changed height to 150px  */
 nav {
   background color: yellow;
-  margin-top: -auto1;
+  margin-top: 30px;
   height: 150px;
   position: fixed;
   width: 100%;
@@ -27,7 +27,7 @@ h1 {
 
 /* added colon to text alignment and consolidated font-size attribute */
 .example, h3 {
-  font-size: 1.3px;
+  font-size: 1.3em;
   padding-top: 30px;
   text-align: center
 }
@@ -44,7 +44,4 @@ h1 {
 
 .last {
     background-color: yellow;
-    height: 80px;
-    margin: 10px 0;
-    width: 100%;
 }
