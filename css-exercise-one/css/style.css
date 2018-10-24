@@ -4,7 +4,7 @@ body {
   font-size: 16px;
 }
 
-/* added ending curly brace, margin-top to auto and changed height to 150px  */
+/* added ending curly brace, margin-top to auto, added - to backgroun-color and changed height to 150px  */
 nav {
   background-color: yellow;
   margin-top: 30px;
